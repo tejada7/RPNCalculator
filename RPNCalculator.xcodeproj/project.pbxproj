@@ -15,6 +15,7 @@
 		B500C5DE1CC7E876005BA136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500C5DC1CC7E876005BA136 /* LaunchScreen.storyboard */; };
 		B500C5E91CC7E876005BA136 /* RPNCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B500C5E81CC7E876005BA136 /* RPNCalculatorTests.m */; };
 		B500C5F41CC7E876005BA136 /* RPNCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B500C5F31CC7E876005BA136 /* RPNCalculatorUITests.m */; };
+		B54962581CDA5E8D003A2AA9 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B54962571CDA5E8D003A2AA9 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B500C5EF1CC7E876005BA136 /* RPNCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPNCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500C5F31CC7E876005BA136 /* RPNCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorUITests.m; sourceTree = "<group>"; };
 		B500C5F51CC7E876005BA136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54962561CDA5E8D003A2AA9 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		B54962571CDA5E8D003A2AA9 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		B500C5C21CC7E876005BA136 = {
 			isa = PBXGroup;
 			children = (
+				B54962561CDA5E8D003A2AA9 /* CalculatorBrain.h */,
+				B54962571CDA5E8D003A2AA9 /* CalculatorBrain.m */,
 				B500C5CD1CC7E876005BA136 /* RPNCalculator */,
 				B500C5E71CC7E876005BA136 /* RPNCalculatorTests */,
 				B500C5F21CC7E876005BA136 /* RPNCalculatorUITests */,
@@ -272,6 +277,7 @@
 			files = (
 				B500C5D61CC7E876005BA136 /* ViewController.m in Sources */,
 				B500C5D31CC7E876005BA136 /* AppDelegate.m in Sources */,
+				B54962581CDA5E8D003A2AA9 /* CalculatorBrain.m in Sources */,
 				B500C5D01CC7E876005BA136 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EPITA.RPNCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EPITA.RPNCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +506,7 @@
 				B500C5FA1CC7E876005BA136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B500C5FB1CC7E876005BA136 /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				B500C5FD1CC7E876005BA136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B500C5FE1CC7E876005BA136 /* Build configuration list for PBXNativeTarget "RPNCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				B500C6001CC7E876005BA136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

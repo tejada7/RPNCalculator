@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "CalculatorBrain.h"
 
 @interface ViewController : UIViewController
 
-
+@property (weak, nonatomic) IBOutlet UILabel *result;
+@property (strong, nonatomic) CalculatorBrain * calculator;
 @end
 
